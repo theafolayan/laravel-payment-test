@@ -7,6 +7,10 @@ use Illuminate\Http\Request;
 
 class ProductController extends Controller
 {
+    public function __construct()
+    {
+     $this->middleware('auth');   // # code...
+    }
     /**
      * Display a listing of the resource.
      *
@@ -17,6 +21,7 @@ class ProductController extends Controller
         //
     }
 
+
     /**
      * Show the form for creating a new resource.
      *
@@ -24,7 +29,7 @@ class ProductController extends Controller
      */
     public function create()
     {
-        //
+        return view('products.create');
     }
 
     /**
