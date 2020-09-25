@@ -18,7 +18,8 @@ class ProductController extends Controller
      */
     public function index()
     {
-        //
+        // shows all products in the database
+        return view('products.index'); 
     }
 
 
