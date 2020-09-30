@@ -8,6 +8,8 @@
             <div class= "card-body">
                 <div class="container">
                     <form action="{{ route('products.store') }}" method="post">
+
+                        @csrf
                         <div class="form-group">
                             <label for="name">Name</label>
                             <input type="text" name="name" class="form-control" placeholder ="Product Name here...">
