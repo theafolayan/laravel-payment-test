@@ -28,6 +28,10 @@
                             <label for="image">Product Image</label>
                             <input type="file" class="form-control" />
                         </div>
+                        <div class="form-group">
+                            <input type="submit" class="btn btn-primary" value="Upload Product"/>
+                        </div>
+
                     </form>
                 </div>
             </div>
