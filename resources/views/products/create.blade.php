@@ -17,12 +17,16 @@
                             <input type="number" class="form-control" name="price" placeholder ="Product price">
                         </div>
                         <div class="form-group">
-                            <label for="name">Quantity</label>
+                            <label for="quantity">Quantity</label>
                             <input type="number" name="quantity" class="form-control" placeholder ="ex 40...">
                         </div>
                         <div class="form-group">
-                            <label for="name">Description</label>
+                            <label for="description">Description</label>
                             <textarea type="text" class="form-control" placeholder ="Product description here..."> </textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="image">Product Image</label>
+                            <input type="file" class="form-control" />
                         </div>
                     </form>
                 </div>
